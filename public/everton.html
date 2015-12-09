@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Tom Chomiak">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="page">
+    <div class="container-fluid">
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-default container-fluid" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" width="141" height="65"><span class="valign"></span>
+                </a>
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+            </div>
+            <menu class="nav navbar-nav navbar-right collapse navbar-collapse" id="menu">
+                <li class="active"><a href="/">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Shop <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/everton.html">Everton</a></li>
+                        <li><a href="/mancity.html">Manchester City</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a>
+                </li>
+                <li><a href="#">Contact</a>
+                </li>
+            </menu>
+        </nav>
+        <style type="text/css">
+            .webshop {
+                margin: 100px 0 50px 0;
+                text-align: center;
+            }
+            .grid {
+                margin: 0 auto;
+                padding: 0;
+                width: 100%;
+            }
+            .grid-item {
+                width: 322px;
+                height: 650px;
+                margin: 0 0 10px 0;
+            }
+            .grid-item .inner {
+                border: 1px solid #333;
+                padding: 10px;
+                width: 300px;
+                height: inherit;
+            }
+            .grid-item img {
+                width: 100%;
+            }
+
+            #modal {
+                margin-top: 70px
+            }
+            #modal img {
+                border: 4px solid #FFF;
+            }
+        </style>
+
+        <!-- Modal -->
+        <div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-body" style="text-align:center" data-dismiss="modal">
+                <img src="/assets/images/shop/everton/Holy-Trinity.jpg" height="550">
+            </div>
+        </div>
+        <div class="row webshop">
+            <h1><i>"If you know your history"</i></h1>
+        </div>
+        <div class="grid">
+            <div class="grid-item">
+                <div class="inner">
+                    <a href="#modal" data-toggle="modal">
+                        <img src="/assets/images/shop/everton/Holy-Trinity.jpg" title="click to enlarge" class="modal-image">
+                    </a>
+                    <h4>Holy Trinity</h4>
+                    <p>A unique piece merging  three of Everton's artistic and finest talents with one of the beautiful stained glass windows from St Lukes Church in Goodison Road.</p>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="ZJVMN8CL8JH38">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0">
+                            <option value="A2 print (16.5 x 23.4 inches)">A2 print (16.5 x 23.4 inches) £85.00 GBP</option>
+                            <option value="A1 print (23.4 x 33.1 inches)">A1 print (23.4 x 33.1 inches) £150.00 GBP</option>
+                        </select></td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="GBP">
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="inner">
+                    <a href="#modal" data-toggle="modal">
+                        <img src="/assets/images/shop/everton/Bayern-and-the-Old-Lady.jpg" title="click to enlarge" class="modal-image">
+                    </a>
+                    <h4>Bayern and the Old Lady</h4>
+                    <p>The greatest night the Old Lady has known. The night  the fans and the team were as a one and  Goodison Park was a relentless wall of noise….and then Tricky rev sealed it!</p>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="V2PSSRA373GVS">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0">
+                            <option value="A2 print (16.5 x 23.4 inches)">A2 print (16.5 x 23.4 inches) £85.00 GBP</option>
+                            <option value="A1 print (23.4 x 33.1 inches)">A1 print (23.4 x 33.1 inches) £150.00 GBP</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="GBP">
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="inner">
+                    <a href="#modal" data-toggle="modal">
+                        <img src="/assets/images/shop/everton/Alan-Ball.jpg" title="click to enlarge" class="modal-image">
+                    </a>
+                    <h4>Bally</h4>
+                    <p>
+                        For many Blues, Alan Ball was the greatest and epitomised what an Evertonian should be-brave, stylish and the ultimate winner. Bally knew what it meant to play and follow Everton.
+                    </p>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="GAFKG6GTKY8SU">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0">
+                            <option value="A2 print (16.5 x 23.4 inches)">A2 print (16.5 x 23.4 inches) £85.00 GBP</option>
+                            <option value="A1 print (23.4 x 33.1 inches)">A1 print (23.4 x 33.1 inches) £150.00 GBP</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="GBP">
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="inner">
+                    <a href="#modal" data-toggle="modal">
+                        <img src="/assets/images/shop/everton/Nine-Nines.jpg" title="click to enlarge" class="modal-image">
+                    </a>
+                    <h4>Nine Number 9's</h4>
+                    <p>The iconic Number 9 shirt, immortalised by DIxie and maintained to Big Dunc. The nine best Number 9s' to wear the Royal Blue shirt. They played 2278 games, scoring 1161 goals-NSNO.</p>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="5GYY6G2PR9R6J">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0">
+                            <option value="A2 print (16.5 x 23.4 inches)">A2 print (16.5 x 23.4 inches) £85.00 GBP</option>
+                            <option value="A1 print (23.4 x 33.1 inches)">A1 print (23.4 x 33.1 inches) £150.00 GBP</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="GBP">
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="inner">
+                    <a href="#modal" data-toggle="modal">
+                        <img src="/assets/images/shop/everton/Wembley-Target.jpg" title="click to enlarge" class="modal-image">
+                    </a>
+                    <h4>We Shall Not Be Moved</h4>
+                    <p>
+                        Evertonians have always had a special relationship with Wembley. As Eddie Cavanagh said 'as soon as that ball hit the net, I was on me bike'. We're on our way to Wembley, we shall not be moved!
+                    </p>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="GLM853MF5GJWA">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Sizes"></td></tr><tr><td><select name="os0">
+                            <option value="A2 print (16.5 x 23.4 inches)">A2 print (16.5 x 23.4 inches) £85.00 GBP</option>
+                            <option value="A1 print (23.4 x 33.1 inches)">A1 print (23.4 x 33.1 inches) £150.00 GBP</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="GBP">
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        
+        <div class="row subscribe-newsletter">
+            <!--
+            <div class="col-xs-6 left">
+                <p>Subscribe to our newsletter</p>
+            </div>
+            <div class="col-xs-6 right">
+                <form>
+                    <input type="email" placeholder="Enter your email" name="email">
+                    <button type="submit" class="btn btn-fanscapes">Submit</button>
+                </form>
+            </div>
+            -->
+        </div>
+    
+
+        <!-- Footer -->
+        <footer>
+	        <div class="row">
+	        	<div class="col-xs-6">
+	        		<p class="copyright">Fanscapes (c) 2015 <span class="hidden-xs">|</span>
+                    <a href="#">Privacy Policy</a></p>
+	        	</div>
+	        	<div class="col-xs-6">
+	        		<ul class="social-btns">
+	        			<li>
+	        				<a href="#" target="_blank"><img src="assets/images/linkedin.png" class="img-responsive"></a>
+	        			</li>
+	        			<li>
+	        				<a href="#" target="_blank"><img src="assets/images/twitter.png"  class="img-responsive"></a>
+	        			</li>
+	        			<li>
+	        				<a href="#" target="_blank"><img src="assets/images/facebook.png" class="img-responsive"></a>
+	        			</li>
+	        		</ul>
+	        	</div>
+	        </div>
+        </footer>
+    </div>
+    <script src="/dist/js/jquery-1.11.1.min.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/lib.js"></script>
+    <script src="assets/js/plugin.js"></script>
+    <script type="text/javascript">
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      columnWidth: 322,
+      gutter: 10,
+      isFitWidth: true
+    });
+
+    $('.modal-image').click(function (e) {
+        $('#modal img').attr('src', $(this).attr('src'));
+    });
+    </script>
+</div>
+</body>
+
+</html>

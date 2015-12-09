@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Tom Chomiak">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="page">
+    <div class="container-fluid">
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-default container-fluid" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" width="141" height="65"><span class="valign"></span>
+                </a>
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+            </div>
+            <menu class="nav navbar-nav navbar-right collapse navbar-collapse" id="menu">
+                <li class="active"><a href="/">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Shop <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/everton.html">Everton</a></li>
+                        <li><a href="/mancity.html">Manchester City</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about.html">About</a>
+                </li>
+                <li><a href="/contact.html">Contact</a>
+                </li>
+            </menu>
+        </nav>
+
+
+
+
+        <style type="text/css">
+            .contactus {
+                margin: 150px 0 5px 0;
+                text-align: center;
+            }
+            .contactus form {
+                margin-bottom: 50px;
+            }
+            .contactus #submit {
+                background: #e36037;
+                border: none;
+            }
+            .contactus a, .contactus a:hover, .contactus a:visited {
+                color: #e36037;
+            }
+            #google-container {
+                width: 100%;
+                height: 400px;
+            }
+        </style>
+
+        <div class="contactus">
+            <div class="row">
+                <div class="col-xs-6 welcome">
+                    <h1><img src="assets/images/logo.jpg" width="100%" style="max-width:345px" /></h1>
+                    <p>The home of great football art</p>
+                    <div class="row" style="text-align:right">
+                        <a href="mailto:support@fanscapes.co.uk" class="strong">support@fanscapes.co.uk</a>
+                        <br>
+                        <a href="tel:+44 (0) 20 8618 2500" class="strong">+44 (0) 20 8618 2500</a>
+                    </div>
+                </div>
+                <div class="col-xs-6 welcome-detail">
+                    <form class="form-horizontal" role="form" method="get" action="#">
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-sm-2 control-label">Message</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" rows="4" name="message"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <input id="submit" name="submit" type="submit" value="Contact Us" class="btn btn-primary">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Google Map -->
+                <div id="container-fluid">
+                    <div id="cd-google-map">
+                        <div id="google-container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="row subscribe-newsletter">
+            <!--
+            <div class="col-xs-6 left">
+                <p>Subscribe to our newsletter</p>
+            </div>
+            <div class="col-xs-6 right">
+                <form>
+                    <input type="email" placeholder="Enter your email" name="email">
+                    <button type="submit" class="btn btn-fanscapes">Submit</button>
+                </form>
+            </div>
+            -->
+        </div>
+
+        <!-- Footer -->
+        <footer>
+	        <div class="row">
+	        	<div class="col-xs-6">
+	        		<p class="copyright">Fanscapes (c) 2015 <span class="hidden-xs">|</span>
+                    <a href="#">Privacy Policy</a></p>
+	        	</div>
+	        	<div class="col-xs-6">
+	        		<ul class="social-btns">
+	        			<li>
+	        				<a href="#" target="_blank"><img src="assets/images/linkedin.png" class="img-responsive"></a>
+	        			</li>
+	        			<li>
+	        				<a href="#" target="_blank"><img src="assets/images/twitter.png"  class="img-responsive"></a>
+	        			</li>
+	        			<li>
+	        				<a href="#" target="_blank"><img src="assets/images/facebook.png" class="img-responsive"></a>
+	        			</li>
+	        		</ul>
+	        	</div>
+	        </div>
+        </footer>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="/dist/js/jquery-1.11.1.min.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/lib.js"></script>
+    <script src="assets/js/plugin.js"></script>
+        <script type="text/javascript">
+        $(function() {
+
+
+            // Set google maps parameters
+            // http://www.latlong.net/convert-address-to-lat-long.html
+            var $latitude = 51.507351,
+                $longitude = -0.127758,
+                $map_zoom = 17;
+
+            // Google map custom marker icon - .png fallback for IE11
+            var is_internetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
+            var $marker_url = (is_internetExplorer11) ? 'assets/images/map-marker.png' : 'assets/images/map-marker.svg';
+
+            // Define style of the map
+            var style = [{
+                "stylers": [{
+                    "hue": "#00aaff"
+                }, {
+                    "saturation": -100
+                }, {
+                    "gamma": 2.15
+                }, {
+                    "lightness": 12
+                }]
+            }];
+
+            // Set google map options
+            var map_options = {
+                center: new google.maps.LatLng($latitude, $longitude),
+                zoom: $map_zoom,
+                panControl: true,
+                zoomControl: true,
+                mapTypeControl: false,
+                streetViewControl: true,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false,
+                styles: style,
+            }
+            // Inizialize the map
+            var map = new google.maps.Map(document.getElementById('google-container'), map_options);
+            // Add a custom marker to the map               
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng($latitude, $longitude),
+                map: map,
+                visible: true,
+                icon: $marker_url,
+            });
+         })
+        </script>
+</div>
+</body>
+
+</html>

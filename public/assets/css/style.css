@@ -1,3 +1,7 @@
+/** Clarendon **/  
+@font-face {font-family: 'HEADOH';src: url('fonts/HEADOH.eot');src: url('fonts/HEADOH.eot?#iefix') format('embedded-opentype'),url('fonts/HEADOH.woff') format('woff'),url('fonts/HEADOH.ttf') format('truetype');}
+
+
 html {
 
        overflow-y: scroll;

@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "serve": "mkdir -p log && node-dev server/app.js",
-    "rsync": "rsync -rv --exclude '.git' * tchomiak@178.79.179.13:/usr/share/nginx/www/fanscapes/"
+    "serve": "mkdir -p log && node-dev server/app.js"
   },
   "author": "",
   "license": "ISC",
